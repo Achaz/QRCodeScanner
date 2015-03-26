@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#006400">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006400"
+    android:orientation="vertical" >
+    
+    <TextView
+		android:id="@+id/tvStatuslbl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		
+		android:layout_marginTop="20dip"
+		android:text="StudentNumber:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@android:color/white"/>
+
+	<TextView
+		android:id="@+id/tvStdNo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+		android:id="@+id/tvResultlbl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.03"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="Student Registration Number:"
+		android:textColor="@android:color/white" />
+
+	<TextView
+		android:id="@+id/tvStdRegNo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+	
+	<TextView 
+	    android:id="@+id/tvResultlbl1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.03"
+		android:text="First Name:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@android:color/white"/>
+	
+	<TextView
+		android:id="@+id/tvStdFName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+	
+	<TextView 
+	    android:id="@+id/tvResultlbl3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.03"
+		android:text="Last Name:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@android:color/white"/>
+	
+	<TextView
+		android:id="@+id/tvStdLName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+	
+	<TextView 
+	    android:id="@+id/tvResultlbl2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.03"
+		android:text="Student Course:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@android:color/white"/>
+	
+	<TextView
+		android:id="@+id/tvStdCourse"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<TextView 
+	    android:id="@+id/tvResultlbl9"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.03"
+		android:text="Tution Paid:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@android:color/white"
+	    />
+	
+	<TextView
+		android:id="@+id/tvStdtuition"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<TextView 
+	    android:id="@+id/tvResultlbl5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.03"
+		android:text="Status:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@android:color/white"/>
+	
+	<TextView
+		android:id="@+id/tvStdStatus"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+    
+
+</LinearLayout>
+</ScrollView>
